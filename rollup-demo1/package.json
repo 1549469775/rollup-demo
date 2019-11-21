@@ -1,0 +1,16 @@
+{
+  "name": "rollup-demo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+http://git.poorman.top/topuser/rollup-demo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
