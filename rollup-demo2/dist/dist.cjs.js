@@ -1,5 +1,7 @@
+'use strict';
+
 function logA() {
   console.log('function logA called');
 }
 
-export default logA;
+module.exports = logA;
