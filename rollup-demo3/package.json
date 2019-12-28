@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup --config rollup.config.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "license": "ISC",
   "devDependencies": {
     "rollup": "^1.27.3"
+  },
+  "dependencies": {
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-replace": "^2.2.0"
   }
 }
